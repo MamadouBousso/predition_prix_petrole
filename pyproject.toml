@@ -1,0 +1,12 @@
+[project]
+name = "prix-petrole-gaz-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "quixstreams>=3.13.1",
+]
+
+[tool.uv.workspace]
+members = ["services/trades"]
