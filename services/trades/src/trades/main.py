@@ -2,6 +2,7 @@
 from quixstreams import Application
 
 
+
 app = Application(
     broker_address='127.0.0.1:31234',  # Using IPv4 localhost address explicitly
     consumer_group='example',
